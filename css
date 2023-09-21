@@ -1,0 +1,83 @@
+body {
+    background-color: rgba(159, 182, 177, 0.678);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    color: rgb(0, 89, 255);
+    background-color: rgb(255, 255, 255);
+    
+    
+    }
+ 
+    
+    nav {
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    header {
+        background-color: rgb(164, 165, 164);
+                         display: flex;
+                         height: 200px;
+                         font-size:30px;
+    
+    
+    }
+    .menu {
+        list-style: none;
+        display: flex;
+      
+    }
+    .menu-item {
+        margin-right: 50px;
+       
+     
+    }
+    .menu-link {
+        color: aliceblue;
+        text-decoration: none;
+        
+    }
+    .autoplay {
+        margin-bottom: 10px;
+    }
+    
+    
+    
+    
+    
+    @media screen and (max-width: 975px) {
+        header {
+            font-size: 16px;
+            height: 150px;
+        }
+    }
+    
+    @media screen and (max-width: 700px) {
+        header {
+            display: flex;
+            flex-direction: column;
+            height: auto;
+        }
+    
+        header img {
+            width: 200px;
+        }
+    }
+    
+    @media screen and (max-width: 540px) {
+        .menu {
+            flex-direction: column;
+            margin-bottom: 15px;
+        }
+    
+        body {
+            font-size: 36px;
+        }
+    
+        header img {
+            width: 100%;
+        }
+    }
